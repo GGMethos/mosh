@@ -67,6 +67,23 @@ Getting Mosh
   users.  We have confirmed that this is the case on GNU/Linux, OS X, and
   FreeBSD.
 
+Building
+-----
+
+On most operating systems, building is simple. Simply run the following commands as root:
+
+git clone https://github.com/keithw/mosh.git 
+
+cd mosh
+
+./autogen.sh
+
+./configure
+
+make
+
+make install
+
 Usage
 -----
 
